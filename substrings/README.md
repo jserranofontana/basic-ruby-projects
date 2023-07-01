@@ -15,3 +15,5 @@ Ruby arrays (mainly **reduce** method), hashes, and string methods (mainly **sca
 
 ## What I learned
 How to use array's reduce method, create a hash, modify a hash and use regexp to get number of occurences of a substring in a string
+
+Test with edge cases
