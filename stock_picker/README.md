@@ -12,4 +12,8 @@ Pay attention to edge cases like when the lowest day is the last day or the high
 Ruby arrays (mainly **each_with_index** and **max** method)
 
 ## What I learned
-How to use array's **each_with_index** method. Traverse an array elements and run a block of code.
+How to use array's **each_with_index** method. 
+
+Traverse through the elements of an array and run a **block of code**.
+
+Test with **edge cases**
