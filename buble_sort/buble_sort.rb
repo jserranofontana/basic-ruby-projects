@@ -1,16 +1,13 @@
 def bubble_sort(data)
-  n = data.length
-  while n >= 1 do
-    newn = 0
-    for i in 1..(n-1)
+  data.length.downto(1) do |n|
+    (1..(n-1)).each do |i|
       if data[i-1] > data[i]
         data[i-1], data[i] = data[i], data[i-1]
-        newn = i
+        n = i
       end
     end
-    n = newn
   end
-  return data
+  data
 end
 
 new_data = bubble_sort([4,3,78,2,0,2])
