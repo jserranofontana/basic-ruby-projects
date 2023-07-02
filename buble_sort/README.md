@@ -5,7 +5,7 @@ Build a method #bubble_sort that takes an array and returns a sorted array. It m
     => [0,2,2,3,4,78]
 
 ## What I used
-    > Adapted from the bubble sort algorith in wikipedia
+> Adapted from the bubble sort algorith in wikipedia
 
 Ruby loops (mainly **while** and **for** method)
 
